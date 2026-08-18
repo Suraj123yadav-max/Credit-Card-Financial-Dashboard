@@ -132,15 +132,9 @@ cust_add.csv (wk-53)──▶   appended to cust_detail  ──▶   DAX Measure
 
 Both pages share the same filter panel, so anyone clicking through the live file can pivot instantly between the "who" and "how" views without losing context — a deliberate UX choice to make the report feel like one connected tool rather than two disconnected charts.
 
----
 
-## 🚀 How to Reproduce This Project
 
-1. Install PostgreSQL and open a client (pgAdmin or `psql`).
-2. Run [`SQL Query - Financial Dashboard Data.sql`](<SQL Query - Financial Dashboard Data.sql>), updating the file paths in the `COPY` statements to point to your local copies of the CSVs.
-3. Open Power BI Desktop and connect to your PostgreSQL database (`ccdb`).
-4. Load the `cc_detail` and `cust_detail` tables and build the relationship on `Client_Num`.
-5. Recreate or import the visuals shown in the screenshots above.
+
 
 ---
 
@@ -150,9 +144,4 @@ Both pages share the same filter panel, so anyone clicking through the live file
 
 ---
 
-## 📬 Contact
 
-**[Your Name]**
-📧 your.email@example.com · 🔗 [LinkedIn](#) · 💼 [Portfolio](#)
-
-If you're a recruiter reviewing this for a Data Analyst / BI role — happy to walk through the modeling decisions and DAX behind any of these visuals.
